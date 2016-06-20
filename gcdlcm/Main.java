@@ -25,14 +25,6 @@ public class Main{
 				lcm_limit = x;	
 		    }
             
-            /*int gcd = 1;
-			for(int i=gcd_limit; i>0; i--){
-				if(lcm_limit%i == 0 && gcd_limit%i == 0){
-					gcd = i;
-					break;
-				}
-			}*/
-
 			int gcd = 1;
 			for(int i=1; ;i++){
 				int divisor = gcd_limit / i;
